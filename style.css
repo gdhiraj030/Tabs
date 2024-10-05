@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+  height: 100vh;
+}
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #212121;
+}
+.tabs__container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+  padding: 2rem;
+}
+.tab {
+  height: 5%;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  background-color: blanchedalmond;
+  cursor: pointer;
+  box-shadow: 1px 5px 0.5px black;
+}
+.texts__container {
+  overflow: hidden;
+}
+.text {
+  overflow: hidden;
+  padding: 1rem 2rem;
+  display: none;
+}
+.hometext {
+  background-color: red;
+}
+.servicestext {
+  background-color: green;
+}
+.abouttext {
+  background-color: yellow;
+}
+.contacttext {
+  background-color: blue;
+}
